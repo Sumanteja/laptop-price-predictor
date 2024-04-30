@@ -74,7 +74,7 @@ if st.button('Predict Price'):
     predicted_price = int(np.exp(pipe.predict(query)[0]))
 
     # Display the result
-    st.title(f"\nPrice: {round(predicted_price * 0.012, 2)} USD")
+    st.title(f"\nPrice: {round(predicted_price * 0.012*83.5, 2)} INR")
 
 # Note
 st.write("""
