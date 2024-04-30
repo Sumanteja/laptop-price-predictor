@@ -1,8 +1,28 @@
 # Laptop-Price-Prediction
 A collection of machine learning models for predicting laptop prices
+# Stock Trend Prediction
 
-![Laptop-Price-Prediction](assets/demo.png)
+This project aims to predict the stock trends of various companies and visualize the predictions along with the actual stock prices.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Details](#Details)
+- [Results](#results)
+
+
+## Introduction
+
+Stock trend prediction is an essential task for investors and traders to make informed decisions about buying, selling, or holding stocks. This project leverages machine learning algorithms to predict stock prices and provides visualizations to analyze the predicted trends.
+
+## Features
+
+- Predict stock prices of various companies.
+- Visualize the predicted trends alongside actual stock prices.
+- Compare actual and predicted prices with moving averages (MA50, MA100, MA200).
+- Customize predictions for different time periods.
+
+## Details
 <details>
 <summary style="font-size: 20px;">Dependencies</summary>
 To install the required Python packages you can use the following command:
@@ -76,7 +96,7 @@ streamlit run app.py
 </details>
 
 <hr>
-<footer>
-  Feel free to send issues if you face any problem. </br>
-  ✨ Don't forget to star the repo :)
-</footer>
+
+## Results
+![Laptop-Price-Prediction](images/1.jpg)
+
